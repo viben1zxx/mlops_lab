@@ -30,6 +30,7 @@ jobs:
 
     - name: Verify Container Execution
       run: |
-        docker run -d -p 8080:8080 --name test-app mlops-fastapi:latest
-        sleep 3
-        curl http://localhost:8080/
+        docker run -d -p 8000:8000 --name test-app mlops-fastapi:latest
+        sleep 5
+        docker logs test-app
+        curl http://localhost:8000/
