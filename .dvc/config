@@ -1,0 +1,6 @@
+[core]
+    remote = origin
+['remote "myremote"']
+    url = s3://my-dvc-bucket/data
+['remote "origin"']
+    url = https://dagshub.com/viben1zxx/mlops_lab.dvc
