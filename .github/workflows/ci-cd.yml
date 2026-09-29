@@ -24,14 +24,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    -     - name: Run Unit Tests
-      run: |
-        python -m pytest
-
+    - name: Run Unit Tests
+      run: python -m pytest
 
     - name: Build Docker Image
-      run: |
-        docker build -t mlops-fastapi:latest .
+      run: docker build -t mlops-fastapi:latest .
 
     - name: Verify Container Execution
       run: |
