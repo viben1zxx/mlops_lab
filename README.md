@@ -1,3 +1,5 @@
+![MLOps CI/CD Pipeline](https://github.com/viben1zxx/mlops_lab/actions/workflows/ci-cd.yml/badge.svg)
+
 # 🚀 MLOps FastAPI CI/CD Pipeline
 
 ## 📌 Project Overview
