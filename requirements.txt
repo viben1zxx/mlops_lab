@@ -1,4 +1,3 @@
-cat << 'EOF' > requirements.txt
 fastapi
 uvicorn
 dvc
@@ -10,4 +9,3 @@ mlflow
 ruff
 mypy
 bandit
-EOF
