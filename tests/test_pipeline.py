@@ -1,5 +1,6 @@
 import pytest
 
+
 @pytest.mark.parametrize("batch_size, expected_shape", [(32, (32, 10)), (64, (64, 10))])
 def test_batch_generator(mocker, batch_size, expected_shape):
     mock_db = mocker.MagicMock()

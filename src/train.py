@@ -1,5 +1,6 @@
-import mlflow
 import os
+
+import mlflow
 
 # Create a dummy model directory if it doesn't exist
 os.makedirs("models", exist_ok=True)
