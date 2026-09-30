@@ -1,6 +1,13 @@
+cat << 'EOF' > requirements.txt
 fastapi
 uvicorn
 dvc
-pydantic
+dagshub
 pytest
-httpx
+pytest-mock
+pytest-cov
+mlflow
+ruff
+mypy
+bandit
+EOF
