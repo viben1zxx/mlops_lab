@@ -27,3 +27,7 @@ To run this project locally on your machine, ensure you have Docker installed, t
    ```bash
    git clone [https://github.com/viben1zxx/mlops_lab.git](https://github.com/viben1zxx/mlops_lab.git)
    cd mlops_lab
+
+## Live Production API
+- **Service URL:** https://mlops-api-4s23.onrender.com
+- **API Documentation:** https://mlops-api-4s23.onrender.com/docs
